@@ -46,7 +46,7 @@ setGlobalsForPeer0Org3(){
 
 presetup() {
     echo Installing npm packages ...
-    pushd ./artifacts/src/github.com/test-cc-javascript
+    pushd ./artifacts=/test-cc-javascript
     npm install
     popd
     echo Finished installing npm dependencies
@@ -57,7 +57,7 @@ CHANNEL_NAME="mychannel"
 CC_RUNTIME_LANGUAGE="node"
 VERSION="1"
 SEQUENCE="1"
-CC_SRC_PATH="./artifacts/src/github.com/test-cc-javascript"
+CC_SRC_PATH="./artifacts/test-cc-javascript"
 CC_NAME="landregister"
 
 packageChaincode() {

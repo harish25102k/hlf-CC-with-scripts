@@ -3,7 +3,7 @@ const { Contract } = require('fabric-contract-api')
 
 class Landregister extends Contract{
     async initLedger(ctx){
-        console.log("==========================")
+        console.log("=============initializing chaincode===================")
         return 'Chain code is up and running'
 
     }
